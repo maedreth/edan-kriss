@@ -7,11 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
     <link href="css/styles.css" rel="stylesheet">
+    <!-- <script src="js/bootstrap.min.js"></script> -->
     </head>
 
 <body>
@@ -93,41 +99,148 @@ function solidifySkills (courses, projects) {
         <h2 class="heading">Online Learning</h2>
         <div id="experience-timeline">
 
-            <div data-date="September 2015 – September 2016">
+            <div data-date="2017 - The Year of Node">
                 <img id="udemy" src="./images/udemy-logo.png" alt="Udemy" />
                 <br/>
-                <div class="container">
-                    <div class="row course info-border">
-                        <img class="course-image" src="./images/jsUnderstandingTheWeirdParts.jpg" alt="js">
-                        <h5>Javascript: Understanding the Weird Parts</h4>
-                    </div>
-                    <div class="row course info-border">
-                        <img class="course-image" src="./images/theWebDevBootcamp.jpg" alt="js">
-                        <h5>The Web Develper Bootcamp</h4>                        
-                    </div>
-                    <div class="row course info-border">
-                        <img class="course-image" src="./images/completeNodeDevCourse.jpg" alt="js">
-                        <h5>The Complete Node.js Developer Course</h4>
-                    </div>
+                <div class="row">
+                    <a href="https://www.udemy.com/the-web-developer-bootcamp/learn/v4/overview">
+                        <div class="course col-md-4 col-xs-6">
+                            <div class="panel panel-info">
+                                <img class="course-image" src="./images/theWebDevBootcamp.jpg" alt="">
+                                <div class="panel-body">The Web Developer Bootcamp</div>
+                                <div class="panel-footer"><img class="course-author-logo" src="./images/colt-steele.jpg">by Colt Steele</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.udemy.com/certificate/UC-ZLT42WLQ/">
+                        <div class="course col-md-4 col-xs-6">
+                            <div class="panel panel-info">
+                                <img class="course-image" src="./images/jsUnderstandingTheWeirdParts.jpg" alt="">
+                                <div class="panel-body">Javascript: Understanding the Weird Parts</div>
+                                <div class="panel-footer"><img class="course-author-logo" src="./images/anthony-alicea.jpg">by Anthony Alicea</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.udemy.com/understand-nodejs/learn/v4/overview">
+                        <div class="course col-md-4 col-xs-6">
+                            <div class="panel panel-info">
+                                <img class="course-image" src="./images/learnUnderstandNode.jpg" alt="">
+                                <div class="panel-body">Learn and Understand NodeJS</div>
+                                <div class="panel-footer"><img class="course-author-logo" src="./images/anthony-alicea.jpg">by Anthony Alicea</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.udemy.com/learn-angularjs/learn/v4/overview">
+                        <div class="course col-md-4 col-xs-6">
+                            <div class="panel panel-info">
+                                <img class="course-image" src="./images/learnUnderstandAngular.jpg" alt="">
+                                <div class="panel-body">Learn and Understand AngularJS</div>
+                                <div class="panel-footer"><img class="course-author-logo" src="./images/anthony-alicea.jpg">by Anthony Alicea</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.udemy.com/the-complete-nodejs-developer-course-2/learn/v4/overview">
+                        <div class="course col-md-4 col-xs-6">
+                            <div class="panel panel-info">
+                                <img class="course-image" src="./images/completeNodeDevCourse.jpg" alt="">
+                                <div class="panel-body">Complete Node.js Developer Course (2nd Ed)</div>
+                                <div class="panel-footer"><img class="course-author-logo" src="./images/andrew-mead.jpg">by Andrew Mead</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div id="stackskills" class="row">
+                    <img id="stackskillsIcon" src="./images/stackskills-logo.png" alt="StackSkills" />
+                    <img id="stackskillsText" src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:60/https://www.filepicker.io/api/file/uDOAt23uSSWNVIW1PaxU" alt="StackSkills" srcset="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:120/https://www.filepicker.io/api/file/uDOAt23uSSWNVIW1PaxU 2x">
+                </div>
+                <div class="row">
+                    <a href="https://stackskills.com/p/projects-in-javascript-jquery">
+                        <div class="course col-md-4 col-xs-6">
+                            <div class="panel panel-info">
+                                <img class="course-image" src="./images/Learn Projects In JavaScript And JQuery.png" alt="">
+                                <div class="panel-body">Projects in Javascript and JQuery</div>
+                                <div class="panel-footer"><img class="course-author-logo" src="./images/eduonix.jpg">by Eduonix</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://stackskills.com/p/learn-nodejs-by-building-10-projects">
+                        <div class="course col-md-4 col-xs-6">
+                            <div class="panel panel-info">
+                                <img class="course-image" src="./images/Learn-Nodejs-by-building-12-projects.jpg" alt="">
+                                <div class="panel-body">Learn Nodejs by Building 12 Projects</div>
+                                <div class="panel-footer"><img class="course-author-logo" src="./images/eduonix.jpg">by Eduonix</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://stackskills.com/p/projects-in-reactjs-the-complete-react-learning-course">
+                        <div class="course col-md-4 col-xs-6">
+                            <div class="panel panel-info">
+                                <img class="course-image" src="./images/Projects-In-ReactJS.jpg" alt="">
+                                <div class="panel-body">Projects in ReactJS - The Complete React Learning Course</div>
+                                <div class="panel-footer"><img class="course-author-logo" src="./images/eduonix.jpg">by Eduonix</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="row">
+                    <h1 class="heading">Other Resources</h1>
+                    <br>
+                    <a href="https://www.railstutorial.org/">
+                        <div class="course col-md-4 col-xs-6">
+                            <div class="panel panel-info">
+                                <img class="course-image" src="./images/ruby.png" alt="">
+                                <div class="panel-body">Ruby on Rails Tutorial (Rails 5)</div>
+                                <div class="panel-footer"><img class="course-author-logo" src="./images/michael-hartl.jpeg">by Michael Hartl</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="http://upskillcourses.com/p/essential-web-developer-course">
+                        <div class="course col-md-4 col-xs-6">
+                            <div class="panel panel-info">
+                                <img class="course-image" src="./images/essentialWebDeveloperCourse.jpg" alt="">
+                                <div class="panel-body">The Essential Web Developer Course</div>
+                                <div class="panel-footer"><img class="course-author-logo" src="./images/upskill.jpg">by Upskill</div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
-            <div data-date="September 2015 – September 2016">
+            <!-- <div data-date="September 2015 – September 2016">
                 <div>
                     <img id="stackskills" src="./images/stackskills-logo.png" alt="StackSkills" />
                     <img id="stackskillsText" src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:60/https://www.filepicker.io/api/file/uDOAt23uSSWNVIW1PaxU" alt="StackSkills" srcset="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:120/https://www.filepicker.io/api/file/uDOAt23uSSWNVIW1PaxU 2x">
                 </div>
-                <div class="container">
-                    <div class="row course info-border">
-                        <img class="course-image" src="./images/Learn Projects In JavaScript And JQuery.png" alt="js">
-                        <h5>Projects in Javascript and JQuery - by Eduonix</h4>
-                    </div>
-                    <div class="row course info-border">
-                        <img class="course-image" src="./images/Learn-Nodejs-by-building-12-projects.jpg" alt="js">
-                        <h5>Learn Nodejs by Building 12 Projects - by Eduonix</h4>
-                    </div>
+                <div class="row">
+                    <a href="https://stackskills.com/p/projects-in-javascript-jquery">
+                        <div class="course col-md-4 col-xs-6">
+                            <div class="panel panel-info">
+                                <img class="course-image" src="./images/Learn Projects In JavaScript And JQuery.png" alt="">
+                                <div class="panel-body">Projects in Javascript and JQuery</div>
+                                <div class="panel-footer"><img class="course-author-logo" src="./images/eduonix.jpg">by Eduonix</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://stackskills.com/p/learn-nodejs-by-building-10-projects">
+                        <div class="course col-md-4 col-xs-6">
+                            <div class="panel panel-info">
+                                <img class="course-image" src="./images/Learn-Nodejs-by-building-12-projects.jpg" alt="">
+                                <div class="panel-body">Learn Nodejs by Building 12 Projects</div>
+                                <div class="panel-footer"><img class="course-author-logo" src="./images/eduonix.jpg">by Eduonix</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://stackskills.com/p/projects-in-reactjs-the-complete-react-learning-course">
+                        <div class="course col-md-4 col-xs-6">
+                            <div class="panel panel-info">
+                                <img class="course-image" src="./images/Projects-In-ReactJS.jpg" alt="">
+                                <div class="panel-body">Projects in ReactJS - The Complete React Learning Course</div>
+                                <div class="panel-footer"><img class="course-author-logo" src="./images/eduonix.jpg">by Eduonix</div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <!-- End #experience -->
