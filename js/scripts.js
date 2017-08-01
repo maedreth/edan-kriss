@@ -94,4 +94,9 @@
         });
     });
 
+    // swap project note glyphicon on click
+    $('#project-note').click(function(e){
+        e.toggleClass('glyphicon-collapse-down glyphicon-collapse-up');
+    }); 
+
 })(jQuery);
