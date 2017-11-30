@@ -6,19 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
-    <link href="css/styles.css" rel="stylesheet">
-    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="css/styles.css">
     </head>
 
 <body>
@@ -108,7 +102,7 @@ function solidifySkills (courses, projects) {
                 <br/>
                 <div id="collapseUdemy" class="collapse">
                     <div class="row">
-                        <a href="https://www.udemy.com/the-web-developer-bootcamp/learn/v4/overview">
+                        <a href="https://www.udemy.com/certificate/UC-IPW70NPV/">
                             <div class="course col-md-4 col-xs-6">
                                 <div class="panel panel-info">
                                     <img class="course-image" src="./images/theWebDevBootcamp.jpg" alt="">
@@ -180,7 +174,7 @@ function solidifySkills (courses, projects) {
                                 </div>
                             </div>
                         </a>
-                        <a href="https://www.udemy.com/the-complete-nodejs-developer-course-2/learn/v4/overview">
+                        <a href="https://www.udemy.com/certificate/UC-B6RL0FR1/">
                             <div class="course col-md-4 col-xs-6">
                                 <div class="panel panel-info">
                                     <img class="course-image" src="./images/completeNodeDevCourse.jpg" alt="">
@@ -192,6 +186,37 @@ function solidifySkills (courses, projects) {
                                             </div>
                                             <div class="media-body">
                                                 <span>by Andrew Mead</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="#collapseEdx" data-toggle="collapse">
+                    <div id="edx" class="row">
+                        <img id="edx" src="./images/mitx.png" alt="MitX">
+                    </div>
+                    <span class="glyphicon glyphicon-menu-down"></span>
+                </a>
+                <br/>
+                <div id="collapseEdx" class="collapse">
+                    <div class="row">
+                        <a href="https://www.edx.org/course/software-construction-java-mitx-6-005-1x">
+                            <div class="course col-md-4 col-xs-6">
+                                <div class="panel panel-info">
+                                    <img class="course-image" src="./images/java.jpg" alt="">
+                                    <div class="panel-body">Software Construction in Java</div>
+                                    <div class="panel-footer">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img class="course-author-logo" src="./images/small-edx.png">
+                                            </div>
+                                            <div class="media-body">
+                                                <span>by MITx</span>
                                             </div>
                                         </div>
                                     </div>
@@ -372,6 +397,27 @@ function solidifySkills (courses, projects) {
         <br><br>
         <div class="container">
             <div class="row">
+                    <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/project.jpg" />
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Fatty's List</h3>
+                                <p>
+                                    This node/express webapp, developed on 'Bash on Ubuntu on Windows' and deployed to Heroku, has one noble goal; to compile a curated list of user-submitted campsites so that the internet 
+                                    can comment on them. NPM has solid libraries like Mongoose for interacting with my cloud hosted 
+                                    mongo database, easing the process of fleshing out models, associations, and routes. Users can CreateReadUpdateDestroy only their own Campgrounds and Comments. Using newer 
+                                    additions to javascript like ES6 syntax, promises, and arrow functions has proven more pleasant than painful. 
+                                    Features: RESTful routing, google maps API leveraged with node-geocode, simple user authentication and validation using passport 
+                                    and custom middleware. In Development: a live chat component as an exercise into the wonderful world of Async!
+                                </p>
+                                <a href="http://fattys-list.herokuapp.com">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .project -->
+
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/panther_paw.png" />
@@ -387,22 +433,6 @@ function solidifySkills (courses, projects) {
                             to payment gateway. 
                         </p>
                         <a href="http://fatty-crafts.herokuapp.com">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
