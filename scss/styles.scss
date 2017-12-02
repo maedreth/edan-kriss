@@ -730,6 +730,9 @@ footer {
 
 .project-image {
     float: left;
+    img {
+        width: 280px;
+    }
 }
 
 .project-info {
@@ -749,7 +752,7 @@ footer {
     p {
         color: $text;
         margin: 0 0 15px 0;
-        font-size: 0.9em;
+        font-size: 0.9em;  
     }
 }
 

@@ -297,6 +297,24 @@ function solidifySkills (courses, projects) {
             <div class="row">
                 <h1 class="heading">Other Resources</h1>
                 <br><br>
+                <a href="https://www.scotch.io/about">
+                    <div class="course col-md-4 col-xs-6">
+                        <div class="panel panel-info">
+                            <img class="course-image" src="./images/scotch-io.jpg" alt="">
+                            <div class="panel-body">Scotch IO - <br/>Coding on the rocks</div>
+                            <div class="panel-footer">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <img class="course-author-logo" src="./images/chris-sevilleja.jpg">
+                                    </div>
+                                    <div class="media-body">
+                                        <span>by Chris Sevilleja</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
                 <a href="https://www.railstutorial.org/">
                     <div class="course col-md-4 col-xs-6">
                         <div class="panel panel-info">
@@ -399,7 +417,8 @@ function solidifySkills (courses, projects) {
             <div class="row">
                     <div class="project shadow-large">
                             <div class="project-image">
-                                <img src="images/project.jpg" />
+                                <!-- <img src="images/project.jpg" /> -->
+                                <img src="images/tent.png" />
                             </div>
                             <!-- End .project-image -->
                             <div class="project-info">
@@ -407,10 +426,8 @@ function solidifySkills (courses, projects) {
                                 <p>
                                     This node/express webapp, developed on 'Bash on Ubuntu on Windows' and deployed to Heroku, has one noble goal; to compile a curated list of user-submitted campsites so that the internet 
                                     can comment on them. NPM has solid libraries like Mongoose for interacting with my cloud hosted 
-                                    mongo database, easing the process of fleshing out models, associations, and routes. Users can CreateReadUpdateDestroy only their own Campgrounds and Comments. Using newer 
-                                    additions to javascript like ES6 syntax, promises, and arrow functions has proven more pleasant than painful. 
-                                    Features: RESTful routing, google maps API leveraged with node-geocode, simple user authentication and validation using passport 
-                                    and custom middleware. In Development: a live chat component as an exercise into the wonderful world of Async!
+                                    mongo database, easing the fleshing out of models, associations, and routes. Users can CRUD only their own Campgrounds and Comments. Using ES6 syntax on the backend has proven more pleasant than painful. 
+                                    Features: RESTful routing, google maps API leveraged with node-geocode, simple user authentication using passport.
                                 </p>
                                 <a href="http://fattys-list.herokuapp.com">View Project</a>
                             </div>
