@@ -640,6 +640,19 @@ footer {
     margin-right: 1em;
     height: 30px;
 }
+#pepsi-container {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    #pepsi-note {
+        text-decoration: none;
+        .panel {
+            width: auto;
+            display: inline-block;
+        }
+    }
+}
 
 /*
     -------------------------------
@@ -938,6 +951,10 @@ footer {
 
     .vtimeline-content {
         margin-left: 26px;
+    }
+
+    #pepsi-container {
+        position: relative;
     }
 
 }

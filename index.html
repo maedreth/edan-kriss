@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/anim.css">
     </head>
 
 <body>
@@ -48,7 +49,7 @@
         <div id="lead-content">
             <h1>Edan Kriss</h1>
             <h2>Longtime Software Enthusiast</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <a href="#" class="btn-rounded-white">My Responsive Portfolio</a>
         </div>
         <!-- End #lead-content -->
 
@@ -68,8 +69,8 @@
             <div class="row">
                 
                 <h2 class="heading">About Me</h2><br />
-                <pre id="kode"><code>var Edan = require('./edan');
-const Learn = require('./learn');
+                <pre id="kode"><code>import {Edan} from "people";
+import {Learn} from "Person";
 Edan.job = "Not what he loves";
 
 while (Edan.job != "Developer") {
@@ -91,6 +92,19 @@ function solidifySkills (courses, projects) {
     <!-- End #about -->
 
     <div id="experience" class="background-alt">
+        <div id="pepsi-container" class="container">
+            <a id="pepsi-note" data-toggle="collapse" href="#collapsePepsi">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">Thirsty? Have a beverage!</h4>
+                        <span class="glyphicon glyphicon-menu-down"></span>
+                    </div>
+                    <div id="collapsePepsi" class="panel-collapse collapse">
+                        <div id="anim"></div>
+                    </div>
+                </div>
+            </a>
+        </div>
         <h2 class="heading">Online Learning</h2>
         <h3>2017 - The Year of Node</h3>
         <div id="experience-timeline">
@@ -195,6 +209,7 @@ function solidifySkills (courses, projects) {
                     </div>
                 </div>
             </div>
+            <h1>HI THERE</h1>
             <div>
                 <a href="#collapseEdx" data-toggle="collapse">
                     <div id="edx" class="row">
@@ -512,7 +527,7 @@ function solidifySkills (courses, projects) {
 
     <!-- <script src="js/jquery-3.2.1.min.js"></script> -->
     <script src="js/scripts.min.js"></script>
-
+    <script src="js/anim.js"></script>
     
 </body>
 

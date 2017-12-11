@@ -94,7 +94,7 @@
         });
     });
 
-    $('#collapseNote').on('show.bs.collapse hide.bs.collapse', function() {
+    $('#collapseNote, #collapsePepsi').on('show.bs.collapse hide.bs.collapse', function() {
         $(this).prev().find(".glyphicon").toggleClass("glyphicon-menu-down glyphicon-menu-up");
     });
 
