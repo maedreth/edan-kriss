@@ -7,8 +7,8 @@ Stator.append(Top);
 Stator.append(Bottom);
 window.onload=function(){
     var dimension=0;
-    for (var i=0;i<360;i+=2) {
-        dimension+=3;
+    for (var i=0;i<360;i+=2.5) {
+        dimension+=3.5;
         Rotor=$("<div>").addClass("rotor");
         Axis=$("<div>").addClass("axis");
         Cover=$("<div>").addClass("cover");
