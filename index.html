@@ -481,6 +481,7 @@ function solidifySkills (courses, projects) {
                             This node/express webapp, developed on 'Bash on Ubuntu on Windows' and deployed to Heroku, has one noble goal; to compile a curated list of user-submitted campsites so that the internet 
                             can comment on them. NPM has solid libraries like Mongoose for interacting with my cloud hosted 
                             mongo database, easing the fleshing out of models, associations, and routes. Users can CRUD only their own Campgrounds and Comments. Using ES6 syntax on the backend has proven more pleasant than painful. 
+                            <br><br>
                             Features: RESTful routing, google maps API leveraged with node-geocode, simple user authentication using passport.
                         </p>
                         <a href="http://fattys-list.herokuapp.com">View Project</a>
@@ -488,6 +489,31 @@ function solidifySkills (courses, projects) {
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
+
+                <div class="project shadow-large">
+                        <div class="project-image">
+                            <!-- <img src="images/project.jpg" /> -->
+                            <img src="images/react.png" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>React 5 Day Forecast</h3>
+                            <p>
+                                ReactJS, my new favorite front-end library! At first, I was put off by the declaritive syntax and 
+                                opinionated, seemingly inflexible way it handled state. The advantages of selective rerendering of only those 
+                                components that have updated is obvious for large sets of dynamic components, and the components you write 
+                                are largely reusable because of the opinionated logic.
+                                <br><br>
+                                This app takes a user-provided city, then renders spark-line charts populated with data from a forecast. 
+                                Axios is used to make an async http request (as a promise) to the OpenWeatherMap API. The redux-promise middleware 
+                                package is used to replace these promises with their resolved value before the action reaches the reducers, allowing the data 
+                                to be elegantly added to redux-state asyncronously. Which then triggers the magical React re-rendering!
+                            </p>
+                            <a href="https://react-five-day-forecast.herokuapp.com">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
 
                 <div class="project shadow-large">
                         <div class="project-image">
@@ -502,7 +528,7 @@ function solidifySkills (courses, projects) {
                                 technologies and their tradeoffs is difficult, and these considerations vary depending on 
                                 app scope: a highly available worldwide network requires a different architecture than 
                                 an inward facing single server app.
-                                <br>
+                                <br><br>
                                 This app uses socket.io, which falls back to Flash Sockets when WebSockets arent available, 
                                 and then falls back to polling if flash isnt installed. It explores the different broadcast methods 
                                 the library has available for selectively emitting events.
