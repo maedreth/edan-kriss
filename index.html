@@ -499,15 +499,14 @@ function solidifySkills (courses, projects) {
                         <div class="project-info">
                             <h3>React 5 Day Forecast</h3>
                             <p>
-                                ReactJS, my new favorite front-end library! At first, I was put off by the declaritive syntax and 
-                                opinionated, seemingly inflexible way it handled state. The advantages of selective rerendering of only those 
-                                components that have updated is obvious for large sets of dynamic components, and the components you write 
+                                ReactJS, my new favorite front-end library!  The advantages of selectively re-rendering only those 
+                                components that have updated are obvious for large sets of dynamic components, and the components you write 
                                 are largely reusable because of the opinionated logic.
                                 <br><br>
-                                This app takes a user-provided city, then renders spark-line charts populated with data from a forecast. 
+                                This app renders spark-line charts populated with data from a weather forecast. 
                                 Axios is used to make an async http request (as a promise) to the OpenWeatherMap API. The redux-promise middleware 
-                                package is used to replace these promises with their resolved value before the action reaches the reducers, allowing the data 
-                                to be elegantly added to redux-state asyncronously. Which then triggers the magical React re-rendering!
+                                is used to replace these promises with their resolved value before the action is reduced to redux-state. 
+                                Which then triggers the magically elegant React re-rendering!
                             </p>
                             <a href="https://react-five-day-forecast.herokuapp.com">View Project</a>
                         </div>
